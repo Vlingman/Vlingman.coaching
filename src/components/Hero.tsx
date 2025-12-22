@@ -37,7 +37,7 @@ const Hero = () => {
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="#services">
-                View Programs
+                WHAT I OFFER  
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
