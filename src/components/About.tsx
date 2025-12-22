@@ -78,7 +78,7 @@ const About = () => {
           <div ref={imagesRef} className={`relative transition-all duration-700 ${imagesVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                <img src={victoryImage} alt="Victory celebration at strongman competition" className="w-full h-64 object-cover object-top rounded-lg shadow-xl hover:scale-[1.02] transition-transform duration-300" />
+                <img alt="Victory celebration at strongman competition" className="w-full h-64 object-cover object-top rounded-lg shadow-xl hover:scale-[1.02] transition-transform duration-300" src="/lovable-uploads/cf366144-5c65-47de-b24b-94ed5e6ae0e5.jpg" />
                 <img src={podiumImage} alt="First place on podium" className="w-full h-40 object-cover rounded-lg shadow-lg hover:scale-[1.02] transition-transform duration-300" />
               </div>
               <div className="pt-8">
