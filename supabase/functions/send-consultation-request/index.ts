@@ -127,7 +127,7 @@ const handler = async (req: Request): Promise<Response> => {
         <p><strong>Requested Time:</strong> ${preferredTime}</p>
         ${message ? `<p><strong>Your Message:</strong> ${message}</p>` : ""}
         <p>I will get back to you within 24 hours to confirm your consultation time.</p>
-        <p>Best regards,<br>Your Strongman Coach</p>
+        <p>Best regards,<br>Viktor Lingman</p>
       `,
     });
 
